@@ -57,6 +57,7 @@ case $choix in
         #permet de redemarrer php8.2-fpm
         sytemctl status php8.2-fpm
         #permet d'afficher le statu de php8.2-fpm
+        ;;
     6)
         echo "Au revoir !"
         #permet d'afficher le message "Au revoir !"
@@ -69,6 +70,7 @@ case $choix in
     read -p "appuyez sur entrée pour continer ..."
     clear
 done
+
 
 
 
