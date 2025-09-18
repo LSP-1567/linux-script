@@ -5,7 +5,7 @@ while true; do
 # Boucle infinie : elle va répéter indéfiniment les commandes à l'intérieur
 
 
-echo "|==============Menu de demarrage===|"
+echo "|==========Menu de demarrage=======|"
 echo "| 1. systemctl restart samba       |"
 echo "| 2. systemctl restart apache2     |"
 echo "| 3. systemctl restart nginx       |"
@@ -70,6 +70,7 @@ case $choix in
     read -p "appuyez sur entrée pour continer ..."
     clear
 done
+
 
 
 
